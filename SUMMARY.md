@@ -2,23 +2,23 @@
 
 * [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
 * [第二章 Git的使用简介](Git的使用简介.md)
-* [第一章 MarkDown语法简介](MarkDown语法简介.md)
-* [第一章 CSS之重置样式](CSS之重置样式.md)
-* [第一章 CSS之常见兼容性问题总结](CSS之常见兼容性问题总结.md)
-* [第一章 CSS之高级布局](CSS之高级布局.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
-* [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
+* [第三章 MarkDown语法简介](MarkDown语法简介.md)
+* [第四章 CSS之重置样式](CSS之重置样式.md)
+* [第五章 CSS之常见兼容性问题总结](CSS之常见兼容性问题总结.md)
+* [第六章 CSS之高级布局](CSS之高级布局.md)
+* [第七章 CSS3之动画实现](CSS3之动画实现.md)
+* [第八章 CSS之LESS](CSS之LESS.md)
+* [第九章 JavaScript之基础知识理解](JavaScript之基础知识理解.md)
+* [第十章 JavaScript之常用JavaScript代码段](JavaScript之常用JavaScript代码段.md)
+* [第十一章 JavaScript之自动化工作流](JavaScript之自动化工作流.md)
+* [第十二章 JavaScript之AngularJS](JavaScript之AngularJS.md)
+* [第十三章 JavaScript之Jade模版](JavaScript之Jade模版.md)
+* [第十四章 JavaScript之node](JavaScript之node.md)
+* [第十五章 JavaScript之Canvas](JavaScript之Canvas.md)
+* [第十六章 前端优化技巧总结](前端优化技巧总结.md)
+* [第十七章 前端工具的使用](前端工具的使用.md)
+* [第十八章 前端插件或组件的开发](前端插件或组件的开发.md)
+* [第十九章 前端杂物间](前端杂物间.md)
 * [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
 * [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
 * [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
@@ -28,32 +28,3 @@
 * [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
 
 
-
-
-6. [CSS之高级布局](#css-layout 'CSS之高级布局')
-
-7. [CSS3之动画实现](#css-animation 'CSS3之动画实现')
-
-8. [CSS之LESS](#css-less 'CSS之LESS')
-
-9. [JavaScript之基础知识理解](#js-base 'JavaScript之基础知识理解')
-
-10. [JavaScript之常用JavaScript代码段](#js-segment 'JavaScript之常用JavaScript代码段')
-
-11. [JavaScript之自动化工作流](#js-workflow 'JavaScript之自动化工作流')
-
-12. [JavaScript之AngularJS](#js-angular 'JavaScript之AngularJS')
-
-13. [JavaScript之Jade模版](#js-jade 'JavaScript之Jade模版')
-
-14. [JavaScript之node.js](#js-node 'JavaScript之node.js')
-
-15. [JavaScript之Canvas](#canvas 'JavaScript之Canvas')
-
-16. [前端优化技巧总结](#optimization '前端性能优化技巧总结')
-
-17. [前端工具的使用] (#tool '前端工具的使用')
-
-18. [前端插件或组件的开发](#component '前端插件或组件的开发')
-
-19. [前端杂物间] (#others '前端杂物间')
