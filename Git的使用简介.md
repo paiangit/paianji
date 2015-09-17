@@ -1,6 +1,6 @@
 # 第二章 Git的使用简介
 
-##### Windows系统中Git的使用
+### Windows系统中Git的使用
 
 在控制台中输入
 d:
@@ -58,7 +58,7 @@ title可以随便取。
 然后重启一下控制台。这样，下次进行push时就不用再输入用户名密码了。）
 
 
-##### Mac系统中Git的使用
+### Mac系统中Git的使用
 
 学习Mac系统的Git使用之前，首先得学一下终端（相当于Windows的控制台）的打开和使用。一些用习惯了Windows的同学刚开始使用Mac的时候，难免在这个地方遇到问题。所以，先扫盲一下。
 
@@ -132,7 +132,7 @@ command +option +j   打开console
 
     git push origin HEAD —force      #这样就可以强制修改远程服务器上已经提交的commit
 
-##### 多人合作开发
+### 多人合作开发
 
 	发布之后如果再有修改，需要新拉出来一个分支，并把版本号往上升1，修改完之后再commit,push,tag,push：
 
@@ -155,7 +155,7 @@ command +option +j   打开console
 
      多人合作开发时，publish之前，需要先add，再commit，再pull，然后才可以publish。
 
-##### git如何回到过去的某个提交，并带着过去的代码回到未来
+### git如何回到过去的某个提交，并带着过去的代码回到未来
 
       git reset --hard commitid      #回到过去
 
@@ -163,11 +163,11 @@ command +option +j   打开console
 
       git reset --hard commitid      #带着过去的代码回到未来
 
-##### 如何创建里程碑，即创建一个release
+### 如何创建里程碑，即创建一个release
 
       github中：release菜单项——new a draft release按钮——填入release tag极其说明，然后发布即可。
 
-##### git使用了错误的邮箱push过，如何恢复它？
+### git使用了错误的邮箱push过，如何恢复它？
 
 在使用git时push一直不成功，git log 中发现 xxx@xxx.xxx 邮箱非法，请务必使用公司邮箱.
 请先使用如下命令行设置正确git提交信息:
@@ -187,7 +187,7 @@ Mac/Ubuntu: wget http://openbase.cn-hangzhou.oss.aliyun-inc.com/git-m  && sudo c
 
 	git-m
 
-##### 取消git全局设置
+### 取消git全局设置
 
 很多同学照着网上的教程，都会对git进行全局设置，例如：
 
@@ -210,7 +210,7 @@ Mac/Ubuntu: wget http://openbase.cn-hangzhou.oss.aliyun-inc.com/git-m  && sudo c
 	说白了，也就是进入到你的git项目相对根目录下，然后执行git config设置记录
 
 
-#### .gitignore设置过滤文件
+# .gitignore设置过滤文件
 
 .gitignore文件放置在项目根目录下，用于过滤掉一些不该被上传github的文件：
 
@@ -219,7 +219,7 @@ node_modules
 npm-debug.log
 .idea/*
 
-#### 如果没有设置.gitignore过滤，就已经提交到远程上去了，怎么删除？
+# 如果没有设置.gitignore过滤，就已经提交到远程上去了，怎么删除？
 
 	rm -rf .idea  #这样会删掉你本地的.idea文件夹，不过你重新打开一次项目就有会自动给你生成了，不过你可以在重新打开项目之前把.gitignore给配置好
 
@@ -233,7 +233,7 @@ npm-debug.log
 
 	然后再push一遍，就彻底把该不该被提交却提交了的文件移除掉了。
 
-##### 版本管理的一些经验：
+### 版本管理的一些经验：
 
 （1）提交之前diff和测试好自己的代码。
 
