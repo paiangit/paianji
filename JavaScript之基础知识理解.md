@@ -372,3 +372,17 @@ null == false  //false
 		....
 	)
 JSON.parse语句在Mac系统的firefox 37.0.2版本中报错说data格式不对，最后发现是因为该data 的末尾被迅雷的插件附加了一个div元素的 html，导致它已不再是json格式，从而JSON.parse(data)时解析出错。最后把这个插件删除了，重启一下该浏览器，就好了。
+
+### DOM详解：
+
+HTML标签并不等同于DOM，它需要经过浏览器的解析才能生成DOM。当页面中所有的HTML标签都转换成DOM元素的时候，就叫做DOM树构建完毕，这个状态就叫domReady。
+
+浏览器引擎的基本渲染流程：解析HTML,构建DOM树（把HTML解析成DOM节点组成DOM树）;解析样式信息，构建渲染树（解析行内样式和外部样式）；布局渲染树（确定DOM节点在屏幕中的位置）；绘制渲染树（把DOM节点绘制到屏幕上）。
+
+WEBKIT主要渲染流程：
+
+HTML经解析并依据DOM规则，生成DOM树，层叠样式表经解析生成样式规则（Style Rules），WEBKIT通过Attachment来连接DOM树和样式规则，生成渲染树，渲染树通过Layout来表示元素的布局，接着遍历渲染树，在页面上绘制渲染树。
+
+window.onload是在页面所有的资源加载完成后才执行，也就是说如果页面中有大量的图片等资源，都需要等到这些资源加载完后才会触发。
+
+DOMReady实现策略：DOMContentLoaded事件是在DOM树构建完成的时候即触发，相比于window.onload事件来说，显然更早。不过，早期的IE对它不兼容。要使用hack办法来兼容之。
