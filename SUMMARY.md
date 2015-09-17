@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * 地铁胡思.md
 * [第一章 那些我们常犯的基本错误](那些我们常犯的基本错误.md)
 * [第二章 Git的使用简介](Git的使用简介.md)
 * [第三章 MarkDown语法简介](MarkDown语法简介.md)
